@@ -12,8 +12,6 @@
     <artifactId>common-ui</artifactId>
 
     <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
         <javafx-fxml.version>16</javafx-fxml.version>
         <javafx_graphics.version>16</javafx_graphics.version>
     </properties>

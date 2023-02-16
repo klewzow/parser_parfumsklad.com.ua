@@ -10,9 +10,5 @@
         <module name="common-ui" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="common-parser" target="16" />
-      <module name="common-ps" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>

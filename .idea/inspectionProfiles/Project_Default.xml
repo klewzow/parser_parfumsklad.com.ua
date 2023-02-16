@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="MisspelledHeader" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="CUSTOM_HEADERS">
+        <header value="Archiver-Version" />
+        <header value="Build-Jdk" />
+        <header value="Built-By" />
+        <header value="Spring-Boot-Classes" />
+        <header value="Spring-Boot-Classpath-Index" />
+        <header value="Spring-Boot-Layers-Index" />
+        <header value="Spring-Boot-Lib" />
+        <header value="Spring-Boot-Version" />
+        <header value="Start-Class" />
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
