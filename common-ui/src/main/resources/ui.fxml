@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" style="-fx-border-color: #FFF; -fx-border-width: 15px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gmail.klewzow.controllers.UiController">
+   <children>
+      <VBox layoutX="-3.0" prefHeight="450.0" prefWidth="273.0" style="-fx-background-color: #182533;">
+         <children>
+            <Pane prefHeight="450.0" prefWidth="411.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="102.0" layoutX="85.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#f3e1a7" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parfumsklad.com.ua" textAlignment="CENTER" wrappingWidth="250.0">
+                     <font>
+                        <Font name="Consolas Bold" size="38.0" />
+                     </font></Text>
+                  <Button layoutX="37.0" layoutY="152.0" mnemonicParsing="false" prefHeight="54.0" fx:id="multipartFileId" onAction="#multipartFile" prefWidth="195.0" stylesheets="@css/style.css" text="Выбрать файл" textFill="#f3e1a7">
+                     <font>
+                        <Font name="Consolas" size="19.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="NW_RESIZE" />
+                     </cursor>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <padding>
+                        <Insets left="28.0" />
+                     </padding>
+                  </Button>
+                  <FontAwesomeIcon fill="#f3e1a7" glyphName="DATABASE" layoutX="56.0" layoutY="186.0" size="20" />
+                  <Button layoutX="37.0" fx:id="exit" layoutY="363.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="195.0" stylesheets="@css/style.css" onMouseClicked="#handlerEndProgram"  text="Выход" textFill="#f3e1a7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="24.0" />
+                     </padding>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </Button>
+                  <FontAwesomeIcon fill="#f3e1a7" glyphName="EYE" layoutX="74.0" layoutY="398.0" selectionFill="#8d5454" size="20" />
+                  <Hyperlink layoutX="123.0" layoutY="425.0" text="klewzow@gmail.com" textFill="WHITE" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="COPYRIGHT" layoutX="102.0" layoutY="442.0" size="15" />
+                  <Separator layoutX="270.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="455.0" prefWidth="6.0" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox layoutX="270.0" layoutY="-1.0" prefHeight="452.0" prefWidth="430.0" style="-fx-background-color: #202B36;">
+         <children>
+            <Pane prefHeight="192.0" prefWidth="430.0">
+               <children>
+                  <FontAwesomeIcon fx:id="closeButton" glyphName="CLOSE" layoutX="388.0" layoutY="40.0" onMouseClicked="#handlerEndProgram" size="30" tabSize="10" wrappingWidth="27.300000190734863" />
+                  <Text fill="#f3e1a7" layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Папка для сохранения:" wrappingWidth="158.13671875">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="folderText" fill="#f3e1a7" layoutX="58.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="empty:" wrappingWidth="280.13671875">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="httpTextField" layoutX="14.0" layoutY="93.0" onMouseClicked="#clearFileTextField" onKeyPressed="#onKeyPressedHtmlTextField"  prefHeight="25.0" prefWidth="404.0" style="-fx-background-color: #5C7A99; -fx-border-color: #FFF; -fx-border-radius: 5px; -fx-background-radius: 5px; -fx-text-fill: #FFFFFF;" text="Введите адрес с сайта Parfumsklad.com.ua">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="164.0" fx:id="start" layoutY="143.0" onMouseClicked="#startApplication" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" stylesheets="@css/style.css" text="Start" textFill="#f3e1a7">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </Button>
+                  <FontAwesomeIcon fill="#f3e1a7" glyphName="PLAY" layoutX="243.0" layoutY="159.0" />
+                  <FontAwesomeIcon fill="#f3e1a7" glyphName="FILE" layoutX="15.0" layoutY="64.0" size="25" />
+                  <RadioButton fx:id="xlsx" onAction="#extension" layoutX="30.0" layoutY="161.0" mnemonicParsing="false" text="Excel" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="fileSet" />
+                     </toggleGroup>
+                  </RadioButton><!-- TODO ratio button  disable="true" -->
+                  <RadioButton fx:id="xml" layoutX="30.0" layoutY="134.0" onAction="#extension" mnemonicParsing="false" selected="true" text="xml" textFill="WHITE" toggleGroup="$fileSet"  />
+                  <ProgressBar fx:id="progressBar" layoutX="113.0" layoutY="142.0" opacity="0.69"  prefHeight="30.0" prefWidth="200.0" visible="false" />
+               </children>                                                                                                          <!-- TODO progress bar visible -->
+            </Pane>
+            <Pane prefHeight="261.0" prefWidth="430.0">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log:" wrappingWidth="37.34765625" />
+                  <TextArea fx:id="fieldLogTextarea" depthTest="DISABLE" disable="true" layoutX="14.0" layoutY="18.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="232.0" prefWidth="404.0" style="-fx-region-background: 10px; -fx-background-insets: 10px; -fx-text-fill: #FFFFFF;" stylesheets="@css/style.css" wrapText="true">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="NONE" />
+                     </cursor>
+                     <effect>
+                        <InnerShadow height="10.0" radius="4.5" width="10.0" />
+                     </effect>
+                  </TextArea>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

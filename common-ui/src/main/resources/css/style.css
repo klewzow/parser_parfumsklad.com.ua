@@ -1,0 +1,46 @@
+
+
+.button {
+    -fx-background-color: #072952;
+    -fx-cursor: hand;
+    -fx-text-fill: WHITE;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-text-fill: #f3e1a7;
+}
+
+.button:hover {
+    -fx-background-color: #135194;
+}
+
+.button:disabled#btnRun {
+    -fx-background-color: #7156DD;
+    -fx-text-fill: WHITE;
+    -fx-opacity: 1;
+}
+
+.button:pressed {
+    -fx-background-color: #1f69ba;
+    -fx-text-fill: #ffffff;
+}
+
+#closeButton {
+    -fx-cursor: hand;
+    -fx-fill: #a2958b;
+}
+
+#closeButton:hover {
+    -fx-fill: #F3E1A7;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+
+}
+
+
+#fieldLogTextarea .content {
+    -fx-background-color:  #5C7A99 ;
+    -fx-text-fill: #ffffff;
+}
+
+
+
