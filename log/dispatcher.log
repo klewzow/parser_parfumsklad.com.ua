@@ -2374,3 +2374,132 @@ false
 
 2023-02-16 14:34:57 7458 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - Send sendToDownloadService
 2023-02-16 14:34:57 7458 [JavaFX Application Thread] DEBUG com.gmail.klewzow.controllers.UiController  - Send start
+2023-02-17 05:25:05 0    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - D:\OneDrive\Работа\PAKEMON 2020T-HOME-PC.xlsx
+2023-02-17 05:25:05 1    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - D:\OneDrive\Работа
+2023-02-17 05:25:05 1    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:25:05 2    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:25:05 2    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else trueВведите адрес с сайта Parfumsklad.com.ua
+
+
+
+2023-02-17 05:25:07 2771 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:25:07 2772 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else true
+
+
+
+2023-02-17 05:25:07 2772 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else true
+
+
+
+2023-02-17 05:25:08 3248 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:25:08 3248 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:25:08 3249 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else trueh
+
+
+
+2023-02-17 05:25:08 3423 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:25:08 3423 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:25:08 3424 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else trueht
+
+
+
+2023-02-17 05:25:08 3908 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:25:08 3908 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:25:08 3908 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else truehtt
+
+
+
+2023-02-17 05:25:12 7198 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - Send sendToDownloadService
+2023-02-17 05:25:12 7198 [JavaFX Application Thread] DEBUG com.gmail.klewzow.controllers.UiController  - Send start
+2023-02-17 05:29:21 0    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - D:\OneDrive\Работа\PAKEMON 2020T-HOME-PC.xlsx
+2023-02-17 05:29:21 1    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - D:\OneDrive\Работа
+2023-02-17 05:29:21 2    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:29:21 2    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:29:21 2    [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else trueВведите адрес с сайта Parfumsklad.com.ua
+
+
+
+2023-02-17 05:29:23 2046 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:29:23 2046 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else true
+
+
+
+2023-02-17 05:29:23 2047 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else true
+
+
+
+2023-02-17 05:29:24 2663 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:29:24 2663 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:29:24 2663 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else trueh
+
+
+
+2023-02-17 05:29:24 2870 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:29:24 2870 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:29:24 2871 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else trueht
+
+
+
+2023-02-17 05:29:25 3406 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - fileWhereToWrite.isFile() else true
+
+
+
+2023-02-17 05:29:25 3406 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().equals("") else false
+
+
+
+2023-02-17 05:29:25 3407 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - uiController.getHttpTextField().getText().startsWith(MRK_HTML) else truehtt
+
+
+
+2023-02-17 05:29:29 8024 [JavaFX Application Thread] DEBUG com.gmail.klewzow.service.impl.BrokerSendMessageImpl  - BrokerSendMessageImpl : HELLO
+2023-02-17 05:29:29 8025 [JavaFX Application Thread] DEBUG com.gmail.klewzow.DeterminantLinker  - Send sendToDownloadService
+2023-02-17 05:29:29 8025 [JavaFX Application Thread] DEBUG com.gmail.klewzow.controllers.UiController  - Send start

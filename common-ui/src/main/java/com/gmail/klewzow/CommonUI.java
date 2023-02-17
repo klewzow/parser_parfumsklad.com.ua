@@ -10,8 +10,5 @@ public class CommonUI {
 
     public static void main(String[] args) {
         Application.launch(JavaFxApplication.class, args);
-
-
-//       SpringApplication.run(WeatherApplication.class, args);
     }
 }

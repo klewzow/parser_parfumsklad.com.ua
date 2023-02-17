@@ -27,10 +27,7 @@ public class DeterminantLinker {
     private RadioButton[] buttons;
     private UiController uiController;
 
-
-
-
-    public void run(){
+    public void run() {
         log.debug("Send sendToDownloadService");
     }
 
@@ -47,7 +44,6 @@ public class DeterminantLinker {
         fieldFolderName.setText("");
         disableButtonStart();
     }
-
 
     public void clickFromRadioButtons(ActionEvent actionEvent) {
         clearingDataFields(uiController.getFieldLogTextarea(), uiController.getFolderText());
@@ -69,7 +65,7 @@ public class DeterminantLinker {
     }
 
     /*
-     * У становка Multipart файла
+     * Установка Multipart файла
      */
     public void selectMultipartFile() {
         FileChooser fileChooser = new FileChooser();
@@ -102,21 +98,10 @@ public class DeterminantLinker {
             uiController.getStart().setDisable(true);
             return;
         }
-        if (!fileWhereToWrite.isFile() ||  uiController.getHttpTextField().getText().startsWith(MRK_HTML)) {
+        if (!fileWhereToWrite.isFile() || uiController.getHttpTextField().getText().startsWith(MRK_HTML)) {
             uiController.getStart().setDisable(false);
         } else {
             uiController.getStart().setDisable(true);
-            log.debug("fileWhereToWrite.isFile() else " + fileWhereToWrite.isFile()+"\n\n\n");
-            log.debug("uiController.getHttpTextField().getText().equals(\"\") else " + uiController.getHttpTextField().getText().equals("")+"\n\n\n");
-            log.debug("uiController.getHttpTextField().getText().startsWith(MRK_HTML) else " + !uiController.getHttpTextField().getText().startsWith(MRK_HTML)
-                    +  uiController.getHttpTextField().getText() +"\n\n\n");
         }
     }
-
-//private DataModel linkerToModel(){
-//        dataModel.setUrl(uiController.getHttpTextField().getText());
-//        dataModel.setFileWhereToWrite(fileWhereToWrite);
-//        dataModel.setFolderWhereToWrite(folderWhereToWrite);
-//        return dataModel;
-//}
 }

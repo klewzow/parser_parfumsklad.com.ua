@@ -10,5 +10,9 @@
         <module name="common-ui" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="brocker" target="16" />
+      <module name="brokers" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>
